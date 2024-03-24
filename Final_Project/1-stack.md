@@ -101,5 +101,25 @@ Output: False
 ### Let's implement this, using the Python file below,
 
 - [stack file](stack.py)
+
 - [solution file](solution.py)
+
+### Now it's your turn to do it!
+
+Now that we have reviewed an example, it's time for you to try solving a problem on your own! Below you have the file to apply what you learned in this tutorial
+
+- [practice file](practice_stack.py)
+
+### Statement Problem: Next Greater Element
+
+Given an array, find the Next Greater Element (NGE) for every element. The Next Greater Element for an element x is the first greater element on the right side of x in the array. If there is no greater element on the right side, then the output should be -1.
+
+**Example:**
+
+Input: [4, 5, 2, 10, 8]
+Output: [5, 10, 10, -1, -1]
+
+
+
+
 
