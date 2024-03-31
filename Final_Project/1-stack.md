@@ -102,6 +102,8 @@ Output: False
 
 - [stack file](stack.py)
 
+Now, it's your turn to solve this problem! Try to implement the solution on your own. Once you're done, you can check the solution using the provided link.
+
 - [solution file](solution.py)
 
 ### Now it's your turn to do it!
@@ -117,6 +119,7 @@ Given an array, find the Next Greater Element (NGE) for every element. The Next 
 **Example:**
 
 Input: [4, 5, 2, 10, 8]
+
 Output: [5, 10, 10, -1, -1]
 
 

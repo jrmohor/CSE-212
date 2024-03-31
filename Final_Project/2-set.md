@@ -82,4 +82,31 @@ print("Difference of A and B:", difference_set)
 
 Now that we understand the basics of set, let's move on to solving a problem using set.
 
-### Problem Statement
+### Problem: Finding Common Elements in Two Lists
+
+Given two lists, find the elements that are common in both lists and return them as a new list.
+
+**Example:**
+```
+# Example Usage:
+list1 = [1, 2, 3, 4, 5]
+list2 = [4, 5, 6, 7, 8]
+print(find_common_elements(list1, list2))  # Output: [4, 5]
+```
+
+- [set file](set.py)
+
+Now, it's your turn to solve this problem! Try to implement the solution on your own. Once you're done, you can check the solution using the provided link.
+
+- [solution set_file](solution_set.py)
+
+### Now if you dare, here is another problem for extra points!
+
+#### Problem 2: Finding Common Elements in Lists
+
+Given two lists, find the elements that are common in both lists and return them as a new list.
+Now, it's your turn to solve this problem! Try to implement the solution on your own. 
+
+- [practice file](practice_set.py)
+
+
