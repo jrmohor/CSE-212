@@ -71,3 +71,50 @@ bst.insert(7)
  / \
 3   7
 ```
+
+## Now let's get to work and apply what we've learned:
+
+Now that you have a basic understanding of binary search trees, here's a problem for you to solve: 
+
+### Problem:
+
+Given a binary search tree, write a function to determine if it is a valid BST.
+#### Example usage:
+```
+bst = TreeNode(10)
+bst.left = TreeNode(5)
+bst.right = TreeNode(15)
+bst.left.left = TreeNode(3)
+bst.left.right = TreeNode(7)
+```
+
+- [tree file](tree.py)
+
+After trying, if you get stuck here is the solution to the example problem
+
+- [solution](solution.py)
+
+### Now it's your turn to do it!
+
+#### Here's an example problem involving a binary search tree (BST):
+
+Problem: Find the Inorder Successor in a BST
+Given a binary search tree (BST) and a value target, write a function to find the inorder successor of the node containing target in the BST. If the target node has a right subtree, then the inorder successor is the leftmost node in the right subtree. Otherwise, it's the nearest ancestor whose left child is also an ancestor of the target node.
+
+For example, consider the following BST:
+```
+        20
+       /  \
+      9    25
+     / \     \
+    5   12    30
+       /  \
+      11   14
+```
+Write a function find_inorder_successor(root, target) that takes the root of the BST and the target value as input and returns the value of the inorder successor. If no such successor exists (e.g., the target is the largest value in the tree), return None.
+
+- [practice file](practice_tree.py)
+
+## Summary
+
+This concludes our tutorial on the tree data structure, focusing on binary trees and binary search trees. Trees are fundamental in computer science and understanding them is crucial for developing efficient algorithms and solving various problems.

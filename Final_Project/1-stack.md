@@ -22,7 +22,7 @@ In data structure the "function stack" refers to the stack of function calls mad
 
 Python provides several ways to implement stacks. One common approach is to use a list, where elements can be added or removed from the end of the list. However, Python also provides a module called collections that offers a specialized data structure called deque, which can efficiently implement a stack.
 
-Here's how you can use deque to create a stack in Python:
+#### Here's how you can use deque to create a stack in Python:
 
 ```python
 class Stack:
@@ -60,7 +60,7 @@ print(stack.size())  # Output: 2
 
 ```
 
-Let's see another example of using a stack to reverse a string:
+#### Let's see another example of using a stack to reverse a string:
 
 ```python
 def reverse_string(input_string):
@@ -77,7 +77,7 @@ print(reverse_string(input_str))  # Outputs: "!dlroW ,olleH"
 
 ```
 
-## Let's do it
+## Now let's get to work and apply what we've learned:
 
 Now that we understand the basics of stacks, let's move on to solving a problem using stacks.
 
@@ -110,8 +110,6 @@ Now, it's your turn to solve this problem! Try to implement the solution on your
 
 Now that we have reviewed an example, it's time for you to try solving a problem on your own! Below you have the file to apply what you learned in this tutorial
 
-- [practice file](practice_stack.py)
-
 ### Statement Problem: Next Greater Element
 
 Given an array, find the Next Greater Element (NGE) for every element. The Next Greater Element for an element x is the first greater element on the right side of x in the array. If there is no greater element on the right side, then the output should be -1.
@@ -122,7 +120,11 @@ Input: [4, 5, 2, 10, 8]
 
 Output: [5, 10, 10, -1, -1]
 
+- [practice file](practice_stack.py)
 
 
+## Summary
+
+By understanding stacks and their operations, you've acquired a powerful tool that can be applied to various problems in computer science and programming. Remember, mastering data structures like stacks is essential for becoming a proficient programmer. Practice implementing and applying them in different scenarios to solidify your understanding.
 
 

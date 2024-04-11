@@ -100,7 +100,7 @@ Now, it's your turn to solve this problem! Try to implement the solution on your
 
 - [solution set_file](solution_set.py)
 
-### Now if you dare, here is another problem for extra points!
+### Now it's your turn to do it!
 
 #### Problem 2: Finding Common Elements in Lists
 
@@ -109,4 +109,6 @@ Now, it's your turn to solve this problem! Try to implement the solution on your
 
 - [practice file](practice_set.py)
 
+## Summary
 
+The tutorial provided a comprehensive overview of sets as a data structure, covering their introduction, implementation using hashing, applications, usage in Python, a practical example, and a problem-solving scenario. By understanding sets and their operations, learners can enhance their problem-solving skills and effectively utilize sets in various programming tasks.
